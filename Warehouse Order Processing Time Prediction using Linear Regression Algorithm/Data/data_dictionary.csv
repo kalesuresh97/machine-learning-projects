@@ -1,0 +1,19 @@
+column,description
+order_id,Unique warehouse order identifier; duplicate IDs are intentionally present.
+order_date,Timestamp when the order entered the warehouse.
+shift,Operational shift.
+warehouse_zone,Warehouse storage zone.
+priority,Order priority.
+equipment_type,Primary equipment used for picking/processing.
+day_of_week,Day of week derived from order date.
+number_of_items,Number of distinct items in the order.
+total_quantity,Total units/quantity in the order.
+number_of_skus,Number of distinct SKUs.
+order_weight_kg,Approximate total order weight in kg.
+picking_distance_m,Estimated picker travel distance in meters.
+picker_experience_months,Picker's experience in months.
+number_of_pickers,Number of pickers assigned.
+warehouse_congestion,Warehouse congestion index from 0 to 1.
+fragile_items,Number of fragile items.
+temperature_c,Warehouse ambient temperature in Celsius.
+processing_time_minutes,Target: order processing time in minutes.
